@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin:0;
+    font-family: 'roboto', sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    height: 100px;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_logo{
+    flex: 20%;
+    font-family: 'Lobster', cursive;
+    color:#180F4A;
+    font-size:34px;
+    
+    margin-left: 10%;
+}
+
+.menu{
+    text-align: right;
+    flex: 70%;
+    margin-right: 10%;
+}
+
+.menu a{
+    color: #180F4A;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: #FF2978;
+    border-top: 2px solid #180F4A;
+}
+
+#conoscoBotao{
+    color: white;
+    background-color: #180F4A;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+#conoscoBotao:hover{
+    background-color: #FF2978;
+    border: 0px;
+}
+
+.logo{
+    font-family: 'Lobster', cursive;
+    color:#180F4A;
+    font-size:34px;
+}
