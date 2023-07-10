@@ -8,14 +8,16 @@ body{
 .navbar{
     display: flex;
     height: 100px;
-    
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar_logo{
     flex: 20%;
     font-family: 'Lobster', cursive;
+    font-weight: bolder;
     color:#180F4A;
     font-size:34px;
     
@@ -37,7 +39,7 @@ body{
 
 .menu a:hover{
     color: #FF2978;
-    border-top: 2px solid #180F4A;
+    border-top: 5px solid #180F4A;
 }
 
 #conoscoBotao{
@@ -57,4 +59,53 @@ body{
     font-family: 'Lobster', cursive;
     color:#180F4A;
     font-size:34px;
+}
+
+.header{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerLeft{
+    flex: 40%;
+    margin-left: 10%;
+}
+
+.containerLeft h2{
+    
+    font-size: 20px;
+    font-weight: 900;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+}
+
+.containerLeft p{
+    padding: 15px 0 40px ;
+    color: grey;
+    text-align: left;
+}
+
+.containerLeft a{
+    background-color: #FF2978;
+    padding: 20px;
+    border-radius: 7px;
+    color: white;
+}
+
+.containerLeft a:hover{
+    background-color: #180F4A;
+    border: 0px;
+}
+
+.containerRight{
+    flex: 40%;
+    margin-right: 10%;
+}
+
+
+.containerRight img{
+    width: 100%;
 }
