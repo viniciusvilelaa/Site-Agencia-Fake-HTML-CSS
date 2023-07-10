@@ -17,7 +17,7 @@
 
 ## Screenshot
 
-<img src="Print-Site">
+<img src="Print-Site.png">
 
 
 ## Autor
