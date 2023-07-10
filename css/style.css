@@ -12,6 +12,7 @@ body{
     align-items: center;
     position: fixed;
     width: 100%;
+    background: white;
 }
 
 .navbar_logo{
@@ -108,4 +109,104 @@ body{
 
 .containerRight img{
     width: 100%;
+}
+
+section{
+    padding: 5%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+}
+
+section h2{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    font-weight: 900;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+}
+
+.servicos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #FF2978;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 1%;
+    
+}
+
+.cardText{
+    display: block;
+}
+
+.cardText h3{
+    font-size: 1.17rem;
+    font-weight: bold;
+    margin: 1rem 0 1rem 0;
+}
+
+.cardText p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 1rem 0 1rem 0;
+}
+
+
+.footer{
+    background: rgb(68,1,101);
+    background: linear-gradient(180deg, rgba(68,1,101,1) 0%, rgba(45,45,45,1) 100%);
+    
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    height: 400px;
+}
+
+.footerLogo{
+    padding: 100px;
+    border-top: 5px solid #FF2978;
+    
+}
+
+.footer h1{
+    font-family: 'Lobster', cursive;
+    font-size: 34px;
+    font-weight: 900;
+    color: white;
+    margin: 30px;
+    
+}
+
+.footer p{
+    color: white;
+    font-weight: 760;
+}
+
+.footer b{
+    color: white;
+    font-weight: 760;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    
+}
+
+.whatsapp img{
+    width: 100px;
 }

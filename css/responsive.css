@@ -1,0 +1,52 @@
+
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (max-width: 1006px) {
+    .whatsapp{
+        display: none;
+    }
+    .navbar{
+        position: relative;
+        
+        
+    }
+    .navbar_logo{
+        margin: 0;
+        text-align: center;
+    }
+    .menu{
+        display: none;
+        
+    }
+
+    .header{
+        margin: 0;
+        text-align: center;
+        flex-direction: column;
+        
+    }
+    .containerLeft{
+        flex: 100%;
+        margin: 5%;
+        
+        
+    }
+
+    .containerLeft p {
+        text-align: center;
+    }
+    .containerRight{
+        flex: 100%;
+        margin: 5%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .servicos{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
