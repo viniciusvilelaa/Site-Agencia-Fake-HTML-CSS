@@ -43,6 +43,7 @@ body{
     font-size: 20px;
     text-decoration: none;
     padding: 20px 16px;
+    transition: 0.15s;
 }
 
 .menu a:hover{
@@ -153,7 +154,7 @@ section h2{
     padding: 20px;
     margin: 1%;
     cursor: pointer;
-    
+    transition: 0.3s;
 }
 
 
