@@ -3,7 +3,7 @@
 
  O projeto do site Agência Fake é um projeto simples de um site criado com HTML e CSS puro.
 
- <a href="https://viniciusvilelaa.github.io/Site-Agencia-Fake-HTML-CSS/" target="_blank"> Clique aqui para visualizar o site </a>
+ <a href="site-agencia-fake.vercel.app" target="_blank"> Clique aqui para visualizar o site </a>
 
 
 
